@@ -2,7 +2,7 @@ package com.futbol.manager.model.fixture;
 
 import com.futbol.manager.model.encuentro.Encuentro;
 import com.futbol.manager.model.encuentro.state.Estado;
-import com.futbol.manager.model.fecha.Jornada;
+import com.futbol.manager.model.jornada.Jornada;
 import com.futbol.manager.model.utils.collection.PredicateFactory;
 import org.apache.commons.collections.CollectionUtils;
 
@@ -25,7 +25,7 @@ public class Fixture {
         fechas.remove(fechaSuspendida);
 
         for (Encuentro encuentro : fechaSuspendida.getEncuentrosPorDisputarse()){
-            encuentro.setEstado(Estado.SUSPENDIDO);
+            //TODO encuentro.setEstado(Estado.SUSPENDIDO);
             encuentrosSuspendidos.add(encuentro);
         }
 

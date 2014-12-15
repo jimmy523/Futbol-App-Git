@@ -1,7 +1,6 @@
 package com.futbol.manager.model.torneo;
 
 import com.futbol.manager.model.exceptions.TorneoException;
-import com.futbol.manager.model.persona.Persona;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.BlockJUnit4ClassRunner;

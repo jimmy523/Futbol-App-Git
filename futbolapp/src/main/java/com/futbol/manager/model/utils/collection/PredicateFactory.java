@@ -1,6 +1,6 @@
 package com.futbol.manager.model.utils.collection;
 
-import com.futbol.manager.model.fecha.Jornada;
+import com.futbol.manager.model.jornada.Jornada;
 import org.apache.commons.collections.Predicate;
 
 import java.util.Date;
@@ -17,7 +17,7 @@ public class PredicateFactory {
             public boolean evaluate(Object o) {
                 Jornada fecha = (Jornada) o;
 
-                return fecha.getFecha().equals(dia);
+                return true; //TODO fecha.getFecha().equals(dia);
 
             }
         };

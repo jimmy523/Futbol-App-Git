@@ -5,7 +5,7 @@ import com.futbol.manager.model.cancha.Cancha;
 import com.futbol.manager.model.equipo.Equipo;
 import com.futbol.manager.model.fixture.Fixture;
 import com.futbol.manager.model.encuentro.Encuentro;
-import com.futbol.manager.model.fecha.Jornada;
+import com.futbol.manager.model.jornada.Jornada;
 import com.futbol.manager.model.usuario.impl.Arbitro;
 import com.futbol.manager.model.utils.collection.SetModificable;
 import com.futbol.manager.model.utils.date.DateUtils;
@@ -68,7 +68,7 @@ public abstract class StrategyBuildFixture {
                     Encuentro encuentro = itEncuentro.next();
                     Arbitro arbitro = conjuntoArbitros.getAndRemove();
                     if (arbitro != null){
-                        encuentro.setArbitraje(Collections.singletonList(arbitro));
+                        //TODO encuentro.setArbitraje(Collections.singletonList(arbitro));
                     }else {
                         TorneoExcepcionHandler.launchException("No existen Arbitros disponibles para asignar a jornada");
                     }
@@ -97,7 +97,7 @@ public abstract class StrategyBuildFixture {
                         Encuentro encuentro = itEncuentro.next();
                         Cancha cancha = conjuntoCanchas.getAndRemove();
                         if (cancha != null){
-                            encuentro.setCancha(cancha);
+                            //TODO encuentro.setCancha(cancha);
                         }else {
                             TorneoExcepcionHandler.launchException("No existen canchas disponibles para asignar a encuentro");
                         }
@@ -121,7 +121,7 @@ public abstract class StrategyBuildFixture {
                         Encuentro encuentro = itEncuentro.next();
                         Cancha cancha = conjuntoCanchas.getAndRemove();
                         if (cancha != null){
-                            encuentro.setCancha(cancha);
+                            //TODO encuentro.setCancha(cancha);
                         }else {
                             TorneoExcepcionHandler.launchException("No existen canchas disponibles para asignar a encuentro");
                         }
@@ -191,8 +191,8 @@ public abstract class StrategyBuildFixture {
                 if(!setEquiposEnEncuentroEnJornada.contains(equipoLocal) && !setEquiposEnEncuentroEnJornada.contains(equipoVisitante)){
                     //genero el encuentro<
                     Encuentro encuentro = new Encuentro();
-                    encuentro.setLocal(map.get(equipoLocal));
-                    encuentro.setVisitante(map.get(equipoVisitante));
+                    //TODO encuentro.setLocal(map.get(equipoLocal));
+                    //TODO encuentro.setVisitante(map.get(equipoVisitante));
                     jornada.addEncuentro(encuentro);
                     //setEncuentrosARemove.add(idsEquipo);//lo quito del set
                     LOGGER.debug("Jornada: " + identificadorJornada);
@@ -216,7 +216,7 @@ public abstract class StrategyBuildFixture {
             DateWrapper dateWrapper = itJornadasWithHorarios.next();
             Jornada jornada = itJornada.next();
 
-            jornada.setFecha(dateWrapper.getDia());
+            //TODO jornada.setFecha(dateWrapper.getDia());
 
             Iterator<Encuentro> itEncuentro = jornada.getEncuentrosPorDisputarse().iterator();
             Iterator<Calendar> itHorarios = dateWrapper.getHorariosJornada().iterator();
@@ -224,7 +224,7 @@ public abstract class StrategyBuildFixture {
             while (itEncuentro.hasNext() && itHorarios.hasNext()){
                 Encuentro encuentro = itEncuentro.next();
                 Calendar horario = itHorarios.next();
-                encuentro.setHorario(horario);
+                //TODO encuentro.setHorario(horario);
             }
 
         }
