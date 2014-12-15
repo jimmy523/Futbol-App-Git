@@ -1,0 +1,91 @@
+DEBUG 2014-09-12 14:53:22,727 StrategyBuildFixture: Iniciando Creacion de FIXTURE
+DEBUG 2014-09-12 14:53:40,107 StrategyBuildFixture: Construyendo las jornadas necesarias para que se enfrenten los: 4
+DEBUG 2014-09-12 14:54:10,057 StrategyBuildFixture: Se le asigno a cada equipo un identificador parcial para generar los encuentros
+DEBUG 2014-09-12 14:54:10,781 StrategyBuildFixture: {0=com.futbol.manager.model.equipo.Equipo@56e2ecc7, 1=com.futbol.manager.model.equipo.Equipo@4c272961, 2=com.futbol.manager.model.equipo.Equipo@1f0dc656, 3=com.futbol.manager.model.equipo.Equipo@41584807}
+DEBUG 2014-09-12 14:55:12,462 StrategyBuildFixture: Iniciando Creacion de FIXTURE
+DEBUG 2014-09-12 14:55:12,487 StrategyBuildFixture: Construyendo las jornadas necesarias para que se enfrenten los: 4
+DEBUG 2014-09-12 14:55:14,985 StrategyBuildFixture: Se le asigno a cada equipo un identificador parcial para generar los encuentros
+DEBUG 2014-09-12 14:55:15,582 StrategyBuildFixture: {0=com.futbol.manager.model.equipo.Equipo@478e4327[nombre=Sacachispa,administrador=<null>,jugadores=<null>], 1=com.futbol.manager.model.equipo.Equipo@4cdada24[nombre=Turin,administrador=<null>,jugadores=<null>], 2=com.futbol.manager.model.equipo.Equipo@342798e7[nombre=Manchester,administrador=<null>,jugadores=<null>], 3=com.futbol.manager.model.equipo.Equipo@4a53fb57[nombre=Boca burros,administrador=<null>,jugadores=<null>]}
+DEBUG 2014-09-12 14:56:13,202 StrategyBuildFixture: Cantidad de encuentros calculados:6
+DEBUG 2014-09-12 14:56:13,617 StrategyBuildFixture: Cantidad de jornadas necesarias para el torneo:3
+DEBUG 2014-09-12 14:56:14,548 StrategyBuildFixture: Cantidad de fechas que deberan jugarse por jornada:2
+DEBUG 2014-09-12 14:57:49,749 StrategyBuildFixture: Jornada: 1
+DEBUG 2014-09-12 14:57:50,554 StrategyBuildFixture: Equipo: 1 VS Equipo: 2
+DEBUG 2014-09-12 15:00:20,113 StrategyBuildFixture: Jornada: 1
+DEBUG 2014-09-12 15:00:20,652 StrategyBuildFixture: Equipo: 0 VS Equipo: 3
+DEBUG 2014-09-12 15:12:06,391 StrategyBuildFixture: Iniciando Creacion de FIXTURE
+DEBUG 2014-09-12 15:12:06,401 StrategyBuildFixture: Construyendo las jornadas necesarias para que se enfrenten los: 4
+DEBUG 2014-09-12 15:12:07,621 StrategyBuildFixture: Se le asigno a cada equipo un identificador parcial para generar los encuentros
+DEBUG 2014-09-12 15:12:07,685 StrategyBuildFixture: {0=com.futbol.manager.model.equipo.Equipo@3c1a1399[nombre=Sacachispa,administrador=<null>,jugadores=<null>], 1=com.futbol.manager.model.equipo.Equipo@53fcc0a2[nombre=Turin,administrador=<null>,jugadores=<null>], 2=com.futbol.manager.model.equipo.Equipo@76caf6c1[nombre=Manchester,administrador=<null>,jugadores=<null>], 3=com.futbol.manager.model.equipo.Equipo@70e35d5[nombre=Boca burros,administrador=<null>,jugadores=<null>]}
+DEBUG 2014-09-12 15:12:12,893 StrategyBuildFixture: Cantidad de encuentros calculados:6
+DEBUG 2014-09-12 15:12:13,267 StrategyBuildFixture: Cantidad de jornadas necesarias para el torneo:3
+DEBUG 2014-09-12 15:12:13,705 StrategyBuildFixture: Cantidad de fechas que deberan jugarse por jornada:2
+DEBUG 2014-09-12 15:12:35,106 StrategyBuildFixture: Jornada: 1
+DEBUG 2014-09-12 15:12:35,107 StrategyBuildFixture: Equipo: 0 VS Equipo: 2
+DEBUG 2014-09-12 15:12:35,108 StrategyBuildFixture: Jornada: 1
+DEBUG 2014-09-12 15:12:35,108 StrategyBuildFixture: Equipo: 1 VS Equipo: 3
+DEBUG 2014-09-12 15:12:46,029 StrategyBuildFixture: Jornada: 2
+DEBUG 2014-09-12 15:12:46,030 StrategyBuildFixture: Equipo: 0 VS Equipo: 2
+DEBUG 2014-09-12 15:12:46,031 StrategyBuildFixture: Jornada: 2
+DEBUG 2014-09-12 15:12:46,031 StrategyBuildFixture: Equipo: 1 VS Equipo: 3
+DEBUG 2014-09-12 15:12:55,338 StrategyBuildFixture: Jornada: 3
+DEBUG 2014-09-12 15:12:55,339 StrategyBuildFixture: Equipo: 0 VS Equipo: 2
+DEBUG 2014-09-12 15:12:55,339 StrategyBuildFixture: Jornada: 3
+DEBUG 2014-09-12 15:12:55,340 StrategyBuildFixture: Equipo: 1 VS Equipo: 3
+DEBUG 2014-09-12 15:15:29,506 StrategyBuildFixture: Iniciando Creacion de FIXTURE
+DEBUG 2014-09-12 15:15:29,515 StrategyBuildFixture: Construyendo las jornadas necesarias para que se enfrenten los: 4
+DEBUG 2014-09-12 15:15:30,430 StrategyBuildFixture: Se le asigno a cada equipo un identificador parcial para generar los encuentros
+DEBUG 2014-09-12 15:15:30,460 StrategyBuildFixture: {0=com.futbol.manager.model.equipo.Equipo@59d0d45b[nombre=Sacachispa,administrador=<null>,jugadores=<null>], 1=com.futbol.manager.model.equipo.Equipo@1d25d06e[nombre=Turin,administrador=<null>,jugadores=<null>], 2=com.futbol.manager.model.equipo.Equipo@1d96f4b5[nombre=Manchester,administrador=<null>,jugadores=<null>], 3=com.futbol.manager.model.equipo.Equipo@219ba640[nombre=Boca burros,administrador=<null>,jugadores=<null>]}
+DEBUG 2014-09-12 15:15:31,980 StrategyBuildFixture: Cantidad de encuentros calculados:6
+DEBUG 2014-09-12 15:15:31,980 StrategyBuildFixture: Cantidad de jornadas necesarias para el torneo:3
+DEBUG 2014-09-12 15:15:31,981 StrategyBuildFixture: Cantidad de fechas que deberan jugarse por jornada:2
+DEBUG 2014-09-12 15:15:39,421 StrategyBuildFixture: Jornada: 1
+DEBUG 2014-09-12 15:15:39,421 StrategyBuildFixture: Equipo: 2 VS Equipo: 3
+DEBUG 2014-09-12 15:15:39,423 StrategyBuildFixture: Jornada: 1
+DEBUG 2014-09-12 15:15:39,423 StrategyBuildFixture: Equipo: 0 VS Equipo: 1
+DEBUG 2014-09-12 15:15:43,265 StrategyBuildFixture: Jornada: 2
+DEBUG 2014-09-12 15:15:43,266 StrategyBuildFixture: Equipo: 2 VS Equipo: 3
+DEBUG 2014-09-12 15:15:43,266 StrategyBuildFixture: Jornada: 2
+DEBUG 2014-09-12 15:15:43,267 StrategyBuildFixture: Equipo: 0 VS Equipo: 1
+DEBUG 2014-09-12 15:15:44,349 StrategyBuildFixture: Jornada: 3
+DEBUG 2014-09-12 15:15:44,349 StrategyBuildFixture: Equipo: 2 VS Equipo: 3
+DEBUG 2014-09-12 15:15:44,350 StrategyBuildFixture: Jornada: 3
+DEBUG 2014-09-12 15:15:44,350 StrategyBuildFixture: Equipo: 0 VS Equipo: 1
+DEBUG 2014-09-12 15:20:19,747 StrategyBuildFixture: Iniciando Creacion de FIXTURE
+DEBUG 2014-09-12 15:20:19,757 StrategyBuildFixture: Construyendo las jornadas necesarias para que se enfrenten los: 4
+DEBUG 2014-09-12 15:20:20,880 StrategyBuildFixture: Se le asigno a cada equipo un identificador parcial para generar los encuentros
+DEBUG 2014-09-12 15:20:20,904 StrategyBuildFixture: {0=com.futbol.manager.model.equipo.Equipo@2d8e8541[nombre=Sacachispa,administrador=<null>,jugadores=<null>], 1=com.futbol.manager.model.equipo.Equipo@67ce85c4[nombre=Turin,administrador=<null>,jugadores=<null>], 2=com.futbol.manager.model.equipo.Equipo@27b03c1a[nombre=Manchester,administrador=<null>,jugadores=<null>], 3=com.futbol.manager.model.equipo.Equipo@2339e351[nombre=Boca burros,administrador=<null>,jugadores=<null>]}
+DEBUG 2014-09-12 15:20:22,110 StrategyBuildFixture: Cantidad de encuentros calculados:6
+DEBUG 2014-09-12 15:20:22,110 StrategyBuildFixture: Cantidad de jornadas necesarias para el torneo:3
+DEBUG 2014-09-12 15:20:22,111 StrategyBuildFixture: Cantidad de fechas que deberan jugarse por jornada:2
+DEBUG 2014-09-12 15:20:23,324 StrategyBuildFixture: Jornada: 1
+DEBUG 2014-09-12 15:20:23,325 StrategyBuildFixture: Equipo: 1 VS Equipo: 3
+DEBUG 2014-09-12 15:20:23,327 StrategyBuildFixture: Jornada: 1
+DEBUG 2014-09-12 15:20:23,328 StrategyBuildFixture: Equipo: 0 VS Equipo: 2
+DEBUG 2014-09-12 15:20:23,328 StrategyBuildFixture: Jornada: 2
+DEBUG 2014-09-12 15:20:23,329 StrategyBuildFixture: Equipo: 1 VS Equipo: 3
+DEBUG 2014-09-12 15:20:23,329 StrategyBuildFixture: Jornada: 2
+DEBUG 2014-09-12 15:20:23,330 StrategyBuildFixture: Equipo: 0 VS Equipo: 2
+DEBUG 2014-09-12 15:20:23,331 StrategyBuildFixture: Jornada: 3
+DEBUG 2014-09-12 15:20:23,332 StrategyBuildFixture: Equipo: 1 VS Equipo: 3
+DEBUG 2014-09-12 15:20:23,332 StrategyBuildFixture: Jornada: 3
+DEBUG 2014-09-12 15:20:23,333 StrategyBuildFixture: Equipo: 0 VS Equipo: 2
+DEBUG 2014-09-12 15:26:05,624 StrategyBuildFixture: Iniciando Creacion de FIXTURE
+DEBUG 2014-09-12 15:26:05,634 StrategyBuildFixture: Construyendo las jornadas necesarias para que se enfrenten los: 4
+DEBUG 2014-09-12 15:26:07,278 StrategyBuildFixture: Se le asigno a cada equipo un identificador parcial para generar los encuentros
+DEBUG 2014-09-12 15:26:07,312 StrategyBuildFixture: {0=com.futbol.manager.model.equipo.Equipo@2d7aece8[nombre=Sacachispa,administrador=<null>,jugadores=<null>], 1=com.futbol.manager.model.equipo.Equipo@61578aab[nombre=Turin,administrador=<null>,jugadores=<null>], 2=com.futbol.manager.model.equipo.Equipo@3a51127a[nombre=Manchester,administrador=<null>,jugadores=<null>], 3=com.futbol.manager.model.equipo.Equipo@2094257f[nombre=Boca burros,administrador=<null>,jugadores=<null>]}
+DEBUG 2014-09-12 15:26:08,080 StrategyBuildFixture: Cantidad de encuentros calculados:6
+DEBUG 2014-09-12 15:26:08,093 StrategyBuildFixture: Cantidad de jornadas necesarias para el torneo:3
+DEBUG 2014-09-12 15:26:08,110 StrategyBuildFixture: Cantidad de fechas que deberan jugarse por jornada:2
+DEBUG 2014-09-12 15:26:09,538 StrategyBuildFixture: Jornada: 1
+DEBUG 2014-09-12 15:26:09,539 StrategyBuildFixture: Equipo: 1 VS Equipo: 3
+DEBUG 2014-09-12 15:26:09,540 StrategyBuildFixture: Jornada: 1
+DEBUG 2014-09-12 15:26:09,541 StrategyBuildFixture: Equipo: 0 VS Equipo: 2
+DEBUG 2014-09-12 15:26:09,541 StrategyBuildFixture: Jornada: 2
+DEBUG 2014-09-12 15:26:09,542 StrategyBuildFixture: Equipo: 1 VS Equipo: 3
+DEBUG 2014-09-12 15:26:09,543 StrategyBuildFixture: Jornada: 2
+DEBUG 2014-09-12 15:26:09,543 StrategyBuildFixture: Equipo: 0 VS Equipo: 2
+DEBUG 2014-09-12 15:26:09,545 StrategyBuildFixture: Jornada: 3
+DEBUG 2014-09-12 15:26:09,545 StrategyBuildFixture: Equipo: 1 VS Equipo: 3
+DEBUG 2014-09-12 15:26:09,546 StrategyBuildFixture: Jornada: 3
+DEBUG 2014-09-12 15:26:09,547 StrategyBuildFixture: Equipo: 0 VS Equipo: 2

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="com.futbol.manager"
+                            name-generator="com.futbol.manager.ioc.BeanNameGeneratorImpl"/>
+<!--
+    <bean id="store" class="com.futbol.manager.test.web.model.MessageStore">
+        <property name="message" value="Hello Spring with Struts" />
+    </bean>
+
+    <bean id="welcomeAction" class="com.futbol.manager.test.web.action.WelcomeAction">
+        <property name="welcome" ref="store"/>
+    </bean>
+
+    <bean id="usuarioAction" class="com.futbol.manager.test.web.action.UsuarioAction">
+    </bean>
+
+    <bean id="torneoService" class="com.futbol.manager.service.torneo.impl.TorneoServiceImpl"/>
+
+    <bean id="altaTorneoAction" class="com.futbol.manager.action.AltaTorneoAction">
+        <property name="torneoService" ref="torneoService"/>
+    </bean> -->
+
+
+
+</beans>

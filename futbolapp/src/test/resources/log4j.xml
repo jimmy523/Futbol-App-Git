@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+    <!-- Subsistema Log -->
+    <appender name="File" class="org.apache.log4j.AsyncAppender">
+        <param name="BufferSize" value="16536"/>
+        <appender-ref ref="Rolling"/>
+    </appender>
+    <appender name="Rolling" class="org.apache.log4j.RollingFileAppender">
+        <param name="File" value="subsistema.log"/>
+        <param name="MaxFileSize" value="10000KB"/>
+        <param name="MaxBackupIndex" value="1"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%-5p %d{ISO8601} %c{1}: %m%n"/>
+        </layout>
+    </appender>
+
+    <!-- Consola Log -->
+    <appender name="Console" class="org.apache.log4j.ConsoleAppender">
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%-5p %d{ISO8601} %c{1}: %m%n"/>
+        </layout>
+    </appender>
+
+    <root>
+        <priority value="DEBUG"/>
+        <appender-ref ref="File"/>
+        <appender-ref ref="Console"/>
+    </root>
+
+</log4j:configuration>
